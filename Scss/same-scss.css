@@ -1,0 +1,31 @@
+$* {
+    max-width: 1900px;
+}
+
+main {
+    height: 1500px;
+    background-color: #FFFFFf;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 1000%;
+
+     .menu__logo {
+        grid-column: 1/ 2 span;
+        grid-row:2 / 4 span;
+     
+     }
+ }
+
+    .menu__list {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20;
+    }
+}
+
+.footer {
+    display: grid;
+}
