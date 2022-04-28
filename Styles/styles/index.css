@@ -1,0 +1,157 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.input {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.grid {
+  font-size: 2 rem;
+  font-weight: 800px;
+  text-align: center;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: ()[8 1fr];
+  grid-template-columns: repeat(8 1fr);
+  -ms-grid-rows: 4 1fr;
+  grid-template-rows: 4 1fr;
+}
+
+.grid-container > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.grid-container > *:nth-child(2) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+}
+
+.grid-item-1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 7;
+  grid-row: 1/8;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  gap: 10px;
+}
+
+.grid-item-2 {
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 2;
+  grid-column: 4/6;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 6;
+  grid-row: 1/7;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  gap: 10px;
+}
+
+.grid-item-3 {
+  -ms-grid-row: 9;
+  -ms-grid-row-span: 2;
+  grid-area: 9/11 1/11;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.grid-item-4 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 7;
+  grid-area: 1/4 1/8;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.grid-item-5 {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 11;
+  grid-area: 4/6 8/15;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.grid-item-6 {
+  -ms-grid-row: 9;
+  -ms-grid-row-span: 9;
+  grid-area: 9/11 12/18;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.grid-item-7 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 21;
+  grid-area: 1/4 15/22;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.grid-item-8 {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 19;
+  grid-area: 4/6 15/23;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.grid-item-9 {
+  -ms-grid-row: 9;
+  -ms-grid-row-span: 18;
+  grid-area: 9/11 19/27;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  gap: 10px;
+}
+
+.grid-item-10 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 32;
+  grid-area: 1/4 25/33;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.grid-item-11 {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 28;
+  grid-area: 4/6 23/32;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.grid-item-12 {
+  -ms-grid-row: 9;
+  -ms-grid-row-span: 19;
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 22;
+  grid-area: 9/11/28/33;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
