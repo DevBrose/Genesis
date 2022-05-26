@@ -1,0 +1,79 @@
+*/body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  font-size: 20px;
+  font-family: "Mulish", Courier, monospace;
+}
+
+.input {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.grid {
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat (4, 1fr);
+}
+
+.grid-dancer-1 {
+  grid-area: 1/4/1/7;
+  gap: 10px;
+}
+
+.grid-smoke-2 {
+  grid-area: 4/6/1/6;
+  gap: 10px;
+}
+
+.grid-boy-3 {
+  grid-area: 7/9/1/11;
+  gap: 10px;
+}
+
+.grid-item-4 {
+  grid-area: 1/4/ 1/8;
+}
+
+.grid-item-5 {
+  grid-area: 4/6/8/15;
+}
+
+.grid-item-6 {
+  grid-area: 9/11/12/18;
+}
+
+.grid-item-7 {
+  grid-area: 1/4/15/22;
+}
+
+.grid-item-8 {
+  grid-area: 4/6/15/23;
+}
+
+.grid-item-9 {
+  grid-area: 9/11/19/27;
+
+  gap: 10px;
+}
+
+.grid-item-10 {
+  grid-area: 1/4/25/33;
+}
+
+.grid-item-11 {
+  grid-area: 5/8/ 23/32;
+}
+
+.grid-item-12 {
+  grid-area: 9/11/28/33;
+}
+/*

@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="stylesheet" href="styles/styles/index.css" />
-    <script
-      src="https://kit.fontawesome.com/38ce75ebcf.js"
-      crossorigin="anonymous"
-    ></script>
-
+   <link rel="stylesheet" href="./Styles/styles/index.css" /> 
+   
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <script src="https://kit.fontawesome.com/ef8333ed68.js" crossorigin="anonymous"></script>
+   
     <title>Genesis-design</title>
   </head>
 
@@ -34,14 +34,41 @@
 
       <div class="input">Design is about progress</div>
 
-      <div class="grid"></div>
+     <!--kopierat från w3 school-->
 
       <div class="grid-container">
-        <div class="grid-item-1">
-          <img src="Images/Rectangle.png" alt="dancer" />
+        <div class="row">
+        <div class="column">
+        
+        <img src="Images/dancer.png">
+    <img src="Images/cactus.png">
+    <img src="Images/light.png">
+    <img src="Images/field.png">
+  
+  </div>
+  <div class="column">
+    <img src="Images/smoke.png">
+    <img src="Images/statue.png">
+    <img src="Images/crossing.png">
+    <img src="Images/desert.png">
+   
+  </div>
+  <div class="column">
+    <img src="Images/boy.png">
+    <img src="Images/paint.png">
+    <img src="Images/keyboard.png">
+    <img src="Images/bushes.png">
+    
+  </div>
+ 
+</div>
+        <!---
+          <div class="column">
+        <div class="grid-dancer-1">
+          <img src="Images/dancer.png" alt="dancer" />
         </div>
-        <div clas="grid-item-2"><img src="Images/smoke.png" alt="smoke" /></div>
-        <div class="grid-item-3"><img src="Images/boy.png" alt="boy" /></div>
+        <div clas="grid-smoke-2"><img src="Images/smoke.png" alt="smoke" /></div>
+        <div class="grid-boy-3"><img src="Images/boy.png" alt="boy" /></div>
 
         <div class="grid-item-4">
           <img src="Images/cactus.png" alt="person-on-cactus" />
@@ -73,7 +100,7 @@
           <img src="Images/bushes.png" alt="bushes" />
         </div>
       </div>
-
+ämtat kod från w3 school --->
       <div class="container">
         <div class="text">
           <h2>
@@ -101,40 +128,72 @@
 
       <div id="Awwwards">
         <h3>Awwwards</h3>
-
-        <p class="align-content">Site of the day</p>
-        <p class="information">
-          Genesis UI Kit Application that helps to find nearest sport centres in
-          your area
-        </p>
-        <p class="year">2018</p>
-
-        <h4>Best navigation</h4>
-        <p class="app">
-          Genesis Template Application that helps to find nearest sport centres
-          in your are
-        </p>
-        <p>2018</p>
-
-        <h5>CSSDesignAward</h5>
-        <p>Site of the day</p>
-        <p>
-          Genesis UI Kit Application that helps to find nearest sport centres in
-          your area
-        </p>
-        <p>2017</p>
-
-        <div class="navigation">Best navigation</div>
-
-        <p>
-          Genesis Template Application that helps to find nearest sport centres
-          in your area
-        </p>
-        <p>2016</p>
       </div>
+
+      <div class="Awwwards">
+        <div class="main__awards--heading main__awards--heading1">
+            <h4>Awwwards</h4>
+        </div>
+        <div class="main__awards--award-name main__awards--award-name1">
+            <h6>Site of the day</h6>
+        </div>
+        <div class="main__awards--definition main__awards--definition1">
+            <p class="definition__heading">Genesis UI Kit</p>
+            <p class="definition__text">Application that helps to find nearest sport centres
+                <span class="overflow">in your area</span></p>
+        </div>
+        <div class="main__awards--year main__box--year1">
+            <p>2018</p>
+        </div>
+        <div class="main__awards--heading main__awards--heading2">
+            <h4></h4>
+        </div>
+        <div class="main__awards--award-name main__awards--award-name2">
+            <h6>Best navigation</h6>
+        </div>
+        <div class="main__awards--definition main__awards--definition2">
+            <p class="definition__heading">Genesis Template</p>
+            <p class="definition__text">Application that helps to find nearest sport centres
+                <span class="overflow">in your area</span></p>
+        </div>
+        <div class="main__awards--year main__box--year2">
+            <p>2018</p>
+        </div>
+    </div>
+
+    <div class="main__box main__box--awards main__box--awards5">
+        <div class="main__awards--heading main__awards--heading1">
+            <h4>CSSDesignAwards</h4>
+        </div>
+        <div class="main__awards--award-name main__awards--award-name1">
+            <h6>Site of the day</h6>
+        </div>
+        <div class="main__awards--definition main__awards--definition1">
+            <p class="definition__heading">Genesis UI Kit</p>
+            <p class="definition__text">Application that helps to find nearest sport centres
+                <span class="overflow">in your area</span></p>
+        </div>
+        <div class="main__awards--year main__box--year1">
+            <p>2017</p>
+        </div>
+        <div class="main__awards--heading main__awards--heading2">
+            <h4></h4>
+        </div>
+        <div class="main__awards--award-name main__awards--award-name2">
+            <h6>Best navigation</h6>
+        </div>
+        <div class="main__awards--definition main__awards--definition2">
+            <p class="definition__heading">Genesis Template</p>
+            <p class="definition__text">Application that helps to find nearest sport centres
+                <span class="overflow">in your area</span></p>
+        </div>
+        <div class="main__awards--year main__box--year2">
+            <p>2016</p>
+        </div>
+    </div>
     </main>
 
-    <div class="footer">
+    <div class="footer a">
       Genesis
       <nav>
         <ul>
@@ -143,6 +202,9 @@
             <a href="#">Contact</a>
           </li>
         </ul>
+      </nav>
+    </div>
+    
 
         <ul class="social-media">
           <li>
