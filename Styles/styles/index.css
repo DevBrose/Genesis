@@ -31,6 +31,11 @@
   text-align: right;
 }
 
+footer b {
+  color: #000;
+  text-align: right;
+}
+
 .social-media {
   text-align: right;
   color: #000;
@@ -104,6 +109,79 @@ input {
   color: #000;
   text-align: right;
 }
+
+.icons {
+  color: #000;
+  text-align: right;
+}
+
+.first-link {
+  text-align: right;
+  color: #000;
+}
+
+h2 {
+  color: black;
+  text-align: left;
+}
+
+p {
+  text-align: left;
+}
+
+.Project {
+  text-align: center;
+}
+
+.portfolio {
+  text-align: right;
+}
+
+.Design {
+  text-align: center;
+}
+
+.Bakhtiyar {
+  text-align: right;
+}
+
+.client {
+  text-align: center;
+}
+
+.Craftwork {
+  text-align: right;
+}
+
+.Deliverble {
+  text-align: center;
+}
+
+.Website-design {
+  text-align: right;
+}
+
+.year {
+  text-align: center;
+}
+
+.Year {
+  text-align: right;
+}
+
+.field {
+  text-align: center;
+}
+
+.branding {
+  text-align: right;
+}
+
+.footer {
+  text-align: left;
+  color: #000;
+}
+
 /*.grid-item-7 {
   grid-column: 1/3;
   grid-row: 16/23;
